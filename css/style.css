@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container{ 
+    width:50%;
+    position: relative;
+    margin:0 auto;
+}
+img{ 
+    width: 100%;
+    object-fit: cover;
+    display: none;
+}
+
+.fa-circle-arrow-down{
+    position: absolute;
+    left: 50%;
+    bottom:0;
+    color: white;
+}
+.fa-circle-arrow-up{
+    position: absolute;
+    left: 50%;
+    top:0;
+    color: white;
+}
+.active{ 
+    display: block;
+}
